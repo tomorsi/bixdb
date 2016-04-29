@@ -9,6 +9,7 @@
 -- GOALTENDER - indicates player is goaltender
 -- SKATER - indicates player is skater
 --
+
 CREATE TABLE IF NOT EXISTS PLAYER (
      ID serial PRIMARY KEY,    
      FIRSTNAME varchar(32),
