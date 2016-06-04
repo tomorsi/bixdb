@@ -1,4 +1,3 @@
-
 --
 -- Player table contains information about players, including
 -- Goalies and Skaters.

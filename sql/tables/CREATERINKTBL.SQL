@@ -10,7 +10,9 @@ CREATE TABLE IF NOT EXISTS RINK (
      STATECODE char(2) NOT NULL,
      ZIPCODE char(5) NOT NULL,
      MANAGERPHONE char(10),
-     MANAGEREMAIL varchar(256)
+     MANAGEREMAIL varchar(256),
+     PASSWORD chkpass NOT NULL,
+     CONSTRAINT manageremail UNIQUE(MANAGEREMAIL)
 );
 
 
